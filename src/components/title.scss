@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Lato');
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  font: 1.5vw 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+
+  .subtitle {
+    font: 1vw 'Lato', sans-serif;
+    text-transform: lowercase;
+  }
+}
